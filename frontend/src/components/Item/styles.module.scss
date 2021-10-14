@@ -1,0 +1,29 @@
+.container {
+  padding: 24px 34px 24px 20px;
+  background: #ffffff;
+  border: 0.5px solid #d5dfe9;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+  .content {
+    .name {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 20px;
+    }
+    .description {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 20px;
+      color: #7d7a7a;
+    }
+  }
+  .flexRow {
+    display: flex;
+    flex-direction: row;
+  }
+}

@@ -1,0 +1,11 @@
+.App {
+  font-family: "Dosis", sans-serif;
+}
+p {
+  margin: 0;
+}
+a,
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}

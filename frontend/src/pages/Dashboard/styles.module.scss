@@ -1,0 +1,41 @@
+.cardContainer {
+  border: 1px solid #c6c6c6;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 614px;
+  height: 290px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  margin-top: 100px;
+  .cardText {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -1.30385e-9px;
+    color: #87898c;
+    margin-bottom: 16px;
+  }
+}
+.itemList {
+  padding: 47px 91px 0px 161px;
+  .header {
+    margin-bottom: 11px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .title {
+      align-self: center;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 24px;
+      text-align: center;
+      letter-spacing: -1.30385e-9px;
+      color: #000000;
+    }
+  }
+}
